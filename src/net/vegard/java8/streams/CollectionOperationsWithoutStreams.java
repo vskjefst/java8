@@ -16,7 +16,7 @@ public class CollectionOperationsWithoutStreams {
             }
         }
 
-        System.out.println(new Double(doublesSum / numberOfDoubles));
+        System.out.println(doublesSum / numberOfDoubles);
     }
 
     public static void main(final String[] args) {
