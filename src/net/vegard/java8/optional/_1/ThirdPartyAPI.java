@@ -1,4 +1,4 @@
-package net.vegard.java8.optional;
+package net.vegard.java8.optional._1;
 
 import java.util.Arrays;
 import java.util.List;
