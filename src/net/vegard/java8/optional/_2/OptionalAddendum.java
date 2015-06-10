@@ -13,7 +13,7 @@ public class OptionalAddendum {
     }
 
     public static void main(final String[] args) {
-        Optional<String> fullName = getFullName("th");
+        final Optional<String> fullName = getFullName("th");
 
         if (fullName.isPresent()) {
             System.out.println(fullName.get());

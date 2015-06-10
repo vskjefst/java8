@@ -12,7 +12,7 @@ public class ClassImplementingInterfaceOverridingDefaultMethod implements Interf
     }
 
     public static void main(final String[] args) {
-        ClassImplementingInterfaceOverridingDefaultMethod aClass = new ClassImplementingInterfaceOverridingDefaultMethod();
+        final ClassImplementingInterfaceOverridingDefaultMethod aClass = new ClassImplementingInterfaceOverridingDefaultMethod();
         aClass.anInterfaceMethod();
         aClass.aDefaultMethod();
     }

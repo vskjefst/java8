@@ -7,7 +7,7 @@ public class ClassImplementingInterface implements InterfaceWithDefaultMethod {
     }
 
     public static void main(final String[] args) {
-        ClassImplementingInterface aClass = new ClassImplementingInterface();
+        final ClassImplementingInterface aClass = new ClassImplementingInterface();
         aClass.anInterfaceMethod();
         aClass.aDefaultMethod();
     }
